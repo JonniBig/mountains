@@ -89,8 +89,9 @@ img {
 /* header */
 .header {
   background-color: rgba(244, 244, 253, 0.7);
-  box-shadow: 0px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08); */
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   position: fixed;
   width: 100%;
 }
@@ -114,10 +115,15 @@ img {
   padding: 24px 0;
   display: inline-block;
 }
+.nav-link:hover,
+.nav-link:focus {
+}
+
 /* --------- Section 1  ---------- */
 .hero {
   padding-top: 100px;
   padding-bottom: 160px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .article {
@@ -156,6 +162,7 @@ img {
 }
 .galary {
   background-color: rgba(198, 214, 237, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 45px 40px -20px;
 }
 /*------------ Slideshow container-------- */
 .slideshow-container {
